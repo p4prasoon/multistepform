@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "deploy": "ng build --prod --base-href https://p4prasoon.github.io/registrationForm/ && angular-cli-ghpages --branch gh-pages"
+    "deploy": "ng build --prod --base-href https://p4prasoon.github.io/multistepform/ && angular-cli-ghpages --branch gh-pages"
   },
   "private": true,
   "dependencies": {
