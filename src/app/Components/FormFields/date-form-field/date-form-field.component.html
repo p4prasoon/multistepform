@@ -1,0 +1,6 @@
+<mat-form-field color="accent" appearance="fill" [formGroup]="formgroup">
+    <mat-label>{{data.label}}</mat-label>
+    <input matInput [matDatepicker]="picker2" [placeholder]="data.placeholder" [formControlName]="data.control" required>
+    <mat-datepicker-toggle matSuffix [for]="picker2"></mat-datepicker-toggle>
+    <mat-datepicker #picker2 color="primary"></mat-datepicker>
+  </mat-form-field>

@@ -1,0 +1,5 @@
+<mat-form-field [formGroup]="formgroup">
+    <mat-label>{{data.label}}</mat-label>
+    <input matInput type="tel" [placeholder]="data.placeholder"  [formControlName]="data.control" pattern="[0-9]{10}" minlength="10" maxlength="10" (keydown)="alphaNumeric($event)" required> 
+    <mat-error *ngIf="control.invalid">Enter Valid Data</mat-error> 
+</mat-form-field>
